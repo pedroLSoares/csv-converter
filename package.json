@@ -1,0 +1,22 @@
+{
+  "name": "csv-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "start": "DEBUG=app* node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "2.0",
+    "debug": "4.1",
+    "iconv-lite": "^0.6.3"
+  }
+}
